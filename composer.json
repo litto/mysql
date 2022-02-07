@@ -1,5 +1,5 @@
 {
-  "name": "litto/message",
+  "name": "litto/mysql",
   "description": "Mysql Library for PHP project",
   "type": "library",
   "require": {

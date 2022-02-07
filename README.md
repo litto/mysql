@@ -33,12 +33,7 @@ class User extends MySql{
 // Adding Record
 
 function addrecord($inputs){
-
-		$insert	=	array(	'name'=>$inputs['name'],
-											'tel'=>$inputs['tel'],
-											'email'=>$inputs['email']
-											);
-
+                $insert	=	array(	'name'=>$inputs['name'],'tel'=>$inputs['tel'],'email'=>$inputs['email']);
 		$this->insert($insert,"cms_user");	
 		return true;
 	}
@@ -46,10 +41,7 @@ function addrecord($inputs){
 //Update Record
 
 	function updateContent($inputs){
-		$insert	=	array(	'name'=>$inputs['name'],
-											'tel'=>$inputs['tel'],
-											'email'=>$inputs['email']
-											);
+		$insert	=	array(	'name'=>$inputs['name'],'tel'=>$inputs['tel'],'email'=>$inputs['email']);
 		$this->update($insert,"cms_user",'`id`='.$inputs['id']);
 		return true;
 	}

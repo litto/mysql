@@ -1,0 +1,21 @@
+{
+  "name": "litto/message",
+  "description": "Mysql Library for PHP project",
+  "type": "library",
+  "require": {
+    "php": ">=5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Message\\": "src"
+    }
+    },
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Litto Chacko",
+      "email": "littochackomp@gmail.com"
+    }
+  ]
+}
